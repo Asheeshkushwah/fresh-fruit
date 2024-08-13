@@ -1,0 +1,36 @@
+.weblogo {
+    width: 65px;
+}
+.moblogo {
+    display: none;
+}
+
+.navbar {
+    background: seagreen!important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #fbac1b !important;
+    }
+}
