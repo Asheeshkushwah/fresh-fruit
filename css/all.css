@@ -1,12 +1,13 @@
 .weblogo {
     width: 65px;
 }
+
 .moblogo {
     display: none;
 }
 
 .navbar {
-    background: seagreen!important;
+    background: seagreen !important;
 }
 
 .navbar-nav li {
@@ -18,6 +19,58 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.bage {
+    background: linear-gradient(rgba(25, 220, 80, 0.6), rgba(11, 193, 59, 262.2)), url(https://demowebsite12.netlify.app/img/vegetable.png) bottom right no-repeat;
+    background-size: contain;
+    margin-top: -115px;
+    z-index: 1;
+    height: 300px;
+}
+
+.bage1 {
+    background: linear-gradient(rgba(146, 101, 10, 0.2), rgb(144 133 7)), url(https://demowebsite12.netlify.app/img/vegetable.png) bottom right no-repeat;
+    background-size: contain;
+    margin-top: -115px;
+    z-index: 1;
+    height: 300px;
+}
+
+
+.icon {
+    font-size: 112px;
+    margin-top: 30px;
+}
+
+.icon1 {
+    font-size: 112px;
+    margin-top: 30px;
+}
+
+.icon h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.icon1 h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.bgsuccess {
+    background-color: rgb(66, 141, 141);
+    width: 100%;
+}
+
+.bgicon{
+    border-radius: 36px;
+    padding: 13px;
+    position: relative;
+    top: 112px;
+    right: 125px;
+    overflow: hidden;
+}
+
 
 
 
